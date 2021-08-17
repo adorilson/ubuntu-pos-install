@@ -27,14 +27,6 @@ sudo apt install android-sdk android-sdk-platform-23
 sudo snap install android-studio --classic
 }
 
-python2_stuff(){
-echo "Coisas de Python 2x"
-sudo apt install --yes python-pip python-dev bpython ipython python-flask* \
-python-django python-cheetah python-mako python-sqlite python-scipy
-sudo pip install virtualenv virtualenvwrapper
-sudo apt build-dep python-lxml
-}
-
 python3_stuff(){
 echo "Coisas de Python 3x"
 sudo apt install --yes python3-pip python3-dev bpython3 ipython3 python3-flask* \
