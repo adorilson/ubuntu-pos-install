@@ -30,9 +30,8 @@ sudo snap install android-studio --classic
 python3_stuff(){
 echo "Coisas de Python 3x"
 sudo apt install --yes python3-pip python3-dev bpython3 ipython3 python3-flask* \
-python3-django python3-mako python3-scipy
+python3-django python3-mako python3-scipy python3-cheetah python3-all-dev
 sudo pip3 install virtualenv virtualenvwrapper
-sudo apt build-dep python3-lxml
 }
 
 conf_virtualenvwrapper(){
