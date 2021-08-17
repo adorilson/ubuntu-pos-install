@@ -15,10 +15,16 @@ echo "Coisa de Java"
 #sudo apt install --yes openjdk-7-jre-headless openjdk-7-jdk 
 
 # I use Android Studio, so I need Java Oracle
+# TODO to test if this is still necessary 
 sudo apt install --yes python-software-properties # just for manage repository by a easy way
 sudo add-apt-repository ppa:webupd8team/java
 sudo apt update --yes
 sudo apt install oracle-java9-installer
+}
+
+android_stuff(){
+sudo apt install android-sdk android-sdk-platform-23
+sudo snap install android-studio --classic
 }
 
 python2_stuff(){
