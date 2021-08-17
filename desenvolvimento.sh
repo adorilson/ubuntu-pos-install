@@ -1,5 +1,5 @@
 # editors and afins
-sudo apt install --yes git gitk geany gedit-developer-plugins gtranslator meld \
+sudo apt install --yes git gitk geany gedit-plugins gtranslator meld \
 subversion vim rake ruby
 
 # libraries and header files
