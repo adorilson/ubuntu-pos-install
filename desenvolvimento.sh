@@ -3,11 +3,11 @@ sudo apt install --yes git gitk geany gedit-plugins gtranslator meld \
 subversion vim rake ruby
 
 # libraries and header files
-sudo apt install --yes babel guile-2.0-dev libcairomm-1.0-dev libdbus-glib-1-dev libdbus-glib1.0-cil-dev \
+sudo apt install --yes guile-3.0-dev libcairomm-1.0-dev  libdbus-glib1.0-cil-dev \
 libdbus-glib2.0-cil-dev libgdome2-dev libglib2.0-cil-dev libglib2.0-dev libglibmm-2.4-dev \
-libglib3.0-cil-dev libgstreamer0.10-dev libgstreamermm-1.0-dev libgtkmm-3.0-dev \
+libglib3.0-cil-dev libgstreamer1.0-dev libgstreamermm-1.0-dev libgtkmm-3.0-dev \
 libpanel-applet-dev libpangomm-1.4-dev libpulse-dev libsigc++-2.0-dev libsigx-2.0-dev \
- libxmu-dev  libxmuu-dev libxext-dev libxtst-dev lib32stdv++-5-dev
+ libxmu-dev  libxmuu-dev libxext-dev libxtst-dev lib64stdc++-10-dev
 
 # need review 
 java_stuff(){
