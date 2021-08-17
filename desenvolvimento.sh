@@ -42,6 +42,8 @@ cp ~/.bashrc ~/.bashrc_OLD
 echo "\n" >> ~/.bashrc
 echo "export WORKON_HOME=~/.virtualenvs" >> ~/.bashrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+# see https://bitbucket.org/virtualenvwrapper/virtualenvwrapper/issues/326/does-not-work-on-ubuntu-if-python2-not
+echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> >> ~/.bashrc
 source ~/.bashrc
 }
 
